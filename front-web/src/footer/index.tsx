@@ -12,10 +12,10 @@ export default function Footer() {
                 App desenvolvido durante a segunda semana DevSuperior
             </div>
             <div className="footer-icons">
-                < a href="#"><Youtube /></a>
-                <a href="#"><Linkdin /></a>
+                < a href="/dd"><Youtube /></a>
+                <a href="/ss"><Linkdin /></a>
 
-                <a href="#"><Istagran /></a>
+                <a href="/cc"><Istagran /></a>
             </div>
         </footer>
     )

@@ -2,10 +2,8 @@ import NavBar from "./navbar/Index"
 import Home from "./home"
 import Orders from "./orders"
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
-    Link,
     BrowserRouter
 } from "react-router-dom";
 
