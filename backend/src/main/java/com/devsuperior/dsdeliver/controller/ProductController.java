@@ -12,7 +12,7 @@ import com.devsuperior.dsdeliver.dto.ProductDTO;
 import com.devsuperior.dsdeliver.service.ProductService;
 
 @RestController
-@RequestMapping(value="/product")
+@RequestMapping(value="/products")
 public class ProductController {
 	
 	@Autowired
