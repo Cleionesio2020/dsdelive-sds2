@@ -18,7 +18,7 @@ export default function ProductCard({ product , onSelectProduct,isSelected}: Pro
             <h3 className="order-card-title">
                 {product.name}
             </h3>
-            <img src={product.imageUri} className="order-card-image" ></img>
+            <img src={product.imageUri} className="order-card-image" alt="" ></img>
 
             <h3 className="order-card-price">
                 {numberformat(Number(product.price))}
