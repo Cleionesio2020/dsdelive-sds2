@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react"
 import OrderLocation from "./OrderLocation"
 import OrderSumary from "./OrderSumary"
 import { fechProducts,saveOrders} from "../Api"
-import { OrderLocationData, Product,OrderPlayload } from "./types"
+import { OrderLocationData, Product} from "./types"
 import {checkIsSelected}from "./helpers"
 import {toast } from 'react-toastify';
 
