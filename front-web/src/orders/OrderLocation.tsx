@@ -1,9 +1,6 @@
 import "./styles.css"
-import StepHeaders from "./stepheaders"
-import ProductList from "./productList"
-import { useEffect, useState } from "react"
-import { Product } from "../type"
-import { fechProducts, fetchLocalMapBox } from "../Api"
+import { useState } from "react"
+import { fetchLocalMapBox } from "../Api"
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import AsyncSelect from 'react-select/async';
 import { OrderLocationData } from "./types"
